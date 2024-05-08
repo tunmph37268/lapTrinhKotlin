@@ -1,7 +1,7 @@
 package com.example.lab1_kotlin
 
 fun main() {
-    print("Nguyễn Văn Anh - PS123456\n")
+    print("Nguyễn Minh Tú - PH37268\n")
     print("=========================\n")
     println("Quanh năm buôn bán ở mom sông")
     println("Nuôi đủ năm con với một chồng")
