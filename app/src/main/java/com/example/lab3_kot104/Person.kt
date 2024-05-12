@@ -1,6 +1,6 @@
 package com.example.lab3_kot104
 
-// Person.kt
+
 open class Nguoi(val hoTen: String, val tuoi: Int, val queQuan: String, val maSoGV: String)
 
 class CBGV(

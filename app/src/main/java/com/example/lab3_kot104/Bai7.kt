@@ -25,7 +25,6 @@ fun main() {
     val luongThuong = scanner.nextInt()
     print("Tiền phạt: ")
     val tienPhat = scanner.nextInt()
-
     // Tạo đối tượng giáo viên từ thông tin vừa nhập
     val gv = CBGV(hoTen, tuoi, queQuan, maSoGV, luongCung, luongThuong, tienPhat)
         danhSachGV.add(gv)
