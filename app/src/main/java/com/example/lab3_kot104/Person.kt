@@ -15,7 +15,7 @@ class CBGV(
     fun tinhLuongThucLinh(): Int {
         return luongCung + luongThuong - tienPhat
     }
-    fun hienThiThongTin() {
+  fun hienThiThongTin() {
         println("Họ tên: $hoTen ,Tuổi: $tuoi ,Quê quán: $queQuan, Mã số giáo viên: $maSoGV, Lương cứng: $luongCung, Lương thưởng: $luongThuong, Tiền phạt: $tienPhat")
         println("Lương thực lĩnh: ${tinhLuongThucLinh()} VND")
     }
