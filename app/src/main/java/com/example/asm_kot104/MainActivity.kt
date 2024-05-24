@@ -83,7 +83,7 @@ fun ImageView() {
 
         Button(
             onClick = {
-                val intent = Intent(context, Login::class.java)
+                val intent = Intent(context, Resigin::class.java)
                 context.startActivity(intent)
             },
             colors = ButtonDefaults.buttonColors(Color.Black),

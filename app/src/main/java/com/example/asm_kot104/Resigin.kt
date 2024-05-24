@@ -272,7 +272,7 @@ fun ResiginScreen() {
             Button(
                 onClick = {
                     if (username.isNotBlank() && password.isNotBlank()) {
-                        val intent = Intent(context, MainActivity::class.java)
+                        val intent = Intent(context, Login::class.java)
                         context.startActivity(intent)
                         Toast.makeText(context, "Login successful", Toast.LENGTH_LONG).show()
                     } else {
