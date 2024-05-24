@@ -122,10 +122,14 @@ fun MainScreen() {
                             context.startActivity(intent)
                         }
                         1 -> {
-                            val intent = Intent(context, Bank::class.java)
+                            val intent = Intent(context, DetailProduct::class.java)
                             context.startActivity(intent)
                             // Chuyển đến màn hình Bookmark
                             // Thêm xử lý tương tự ở đây nếu cần
+                        }
+                        2 ->{
+                            val intent = Intent(context, Bank::class.java)
+                            context.startActivity(intent)
                         }
                         // Thêm các trường hợp khác tương tự ở đây nếu cần
                     }

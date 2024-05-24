@@ -156,7 +156,7 @@ class Cart : ComponentActivity() {
             )
             Button(
                 onClick = {
-                    val intent = Intent(context, Home::class.java)
+                    val intent = Intent(context, PayProduct::class.java)
                     context.startActivity(intent)
                 },
                 colors = ButtonDefaults.buttonColors(Color.Black),
@@ -174,7 +174,7 @@ class Cart : ComponentActivity() {
             )
             {
                 Text(
-                    text = "BACK TO HOME",
+                    text = "CHECK OUT",
                     fontSize = 18.sp,
                     style = TextStyle(Color.White)
 
