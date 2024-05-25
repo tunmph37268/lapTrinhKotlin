@@ -238,7 +238,8 @@ fun Checkout() {
         Spacer(modifier = Modifier.height(50.dp))
 
         Button(
-            onClick = { /* Xử lý đặt hàng */ },
+            onClick = {   val intent = Intent(context, Bank::class.java)
+                context.startActivity(intent) },
             colors = ButtonDefaults.buttonColors(Color.Black),
             shape = MaterialTheme.shapes.small,
             modifier = Modifier.fillMaxWidth()
