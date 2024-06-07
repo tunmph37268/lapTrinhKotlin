@@ -1,0 +1,24 @@
+{
+  "Film": [
+    {
+      "description": "Mô tả phim 1",
+      "duration": 0,
+      "id": "1",
+      "filmName": "Tên phim 1",
+      "genre": "Thể loại 1",
+      "image": "https://cdn.popsww.com/blog/sites/2/2023/02/conan-movie-26.jpg",
+      "national": "Quốc gia 1",
+      "releaseDate": "Ngày công chiếu 1"
+    },
+    {
+      "id": "9917",
+      "description": "Very Good!",
+      "duration": 0,
+      "filmName": "Doraemon",
+      "genre": "Childrend",
+      "image": "https://mega.com.vn/media/news/1406_hinh-nen-doraemon-4k32.jpg",
+      "national": "japan",
+      "releaseDate": "18/06/2024"
+    }
+  ]
+}
